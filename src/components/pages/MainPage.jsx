@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function MainPage({ streams }) {
-  console.log(streams);
   return streams.map((el, i, e, r) => (
 
     <div className="card" key={i}>
